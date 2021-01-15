@@ -11,12 +11,14 @@
     },
     "platform": {
         "uuid": "platform_customization_local",
+        "backgroundColor": "#FF0000",
+        "waitForPageLoad": false,
         "applicationIcon": "https://openfin.github.io/golden-prototype/favicon.ico",
-        "autoShow": false,
+        "autoShow": true,
         "providerUrl": "http://localhost:5555/provider.html",
         "permissions": {
             "ExternalWindow": {
-              	"wrap": true
+                "wrap": true
             },
             "System": {
                 "getAllExternalWindows": true,
@@ -26,6 +28,8 @@
             }
         },
         "defaultWindowOptions": {
+            "backgroundColor": "#FF0000",
+            "waitForPageLoad": true,
             "url": "http://localhost:5555/platform-window.html",
             "contextMenu": true,
             "defaultWidth": 600,
@@ -52,6 +56,7 @@
     "snapshot": {
         "windows": [
             {
+                "backgroundColor": "#FF0000",
                 "layout": {
                     "content": [
                         {
